@@ -142,7 +142,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--pressed-color);
+    color: var(--second-color);
     transform: scale(1);
     transition: color var(--hover-focus-trans);
 
