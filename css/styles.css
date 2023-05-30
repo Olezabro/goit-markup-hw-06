@@ -5,7 +5,7 @@
     --paragraph-color: #434455;
     --pressed-color: #404BBF;
     --active-color: #4D5AE5;
-    --hover-focus-trans: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+    --hover-focus-trans: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     --header-idx: 10;
     --modal-idx: 100;
 }
