@@ -546,7 +546,7 @@ body {
 }
 
 .footer-input {
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid #FFFFFF;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     background-color: transparent;
@@ -557,10 +557,11 @@ body {
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
-    color: rgba(255, 255, 255, 0.6);  
+    color: #FFFFFF;  
 }
 
-.footer-input::placeholder {      
+.footer-input::placeholder {  
+    color: #FFFFFF;    
 }
 
 .footer-form-item {
@@ -812,11 +813,9 @@ body {
 
 .modal-form-label {
     display: block;
-    margin-bottom: 4px;
-
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.33;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8E8F99;
     margin-bottom: 4px;
@@ -826,10 +825,13 @@ body {
     width: 100%;
     height: 40px;
     position: relative;
-    margin-bottom: 8px;
-    
-    
+      
 }
+
+.modal-content {
+    margin-bottom: 8px;
+}
+
 .modal-form-input {
     width: 100%;
     height: 40px;
@@ -863,20 +865,17 @@ body {
     fill: var(--active-color);
 }
 
-.modal-form-label {
-    display: flex;
-}
+
 
 .modal-form-comment {
     width: 100%;
     height: 120px;
     resize: none;
-    border-radius: 4px;
     padding: 8px 16px;
     margin-bottom: 16px;
-    outline: 1px solid rgba(33, 33, 33, 0.2);
+    border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-
+    display: block;
     font-size: 12px;
     line-height: 1.33;
     letter-spacing: 0.04em;
@@ -904,8 +903,7 @@ body {
     display: block;
     width: 16px;
     height: 16px;
-    border: 1.25px solid #2E2F42;
-    border-radius: 2px;
+    
 }
 
 
@@ -923,12 +921,13 @@ body {
 
 .modal-policy-input:checked {
     background-color: var(--pressed-color);
-    border: none;
 }
 
 .modal-policy-icon {
     width: 16px;
     height: 16px;
+    border-color: #2E2F42;
+    border-radius: 2px; 
 }
 
 .modal-btn {
@@ -944,7 +943,7 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     padding: 16px 32px;
-    margin-top: 48px;
+    margin-top: 24px;
     border: none;
     width: 169px;
     transition: background-color var(--hover-focus-trans);
